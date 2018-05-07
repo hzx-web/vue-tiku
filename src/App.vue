@@ -1,22 +1,28 @@
 <template>
   <div>
+    <!--顶部工具栏-->
     <top-toolbar></top-toolbar>
+    <!--顶部导航-->
     <top-nav></top-nav>
+    <!--主题内容-->
     <div id="app" class="main">
       <div class="container clearfix">
+        <!--左侧导航-->
         <side-nav></side-nav>
+        <!--右侧内容-->
         <div class="tk-content pull-right">
           <div class="exam">
+            <!--切换科目-->
             <div class="exam-subject">
               <div class="current-subject-content clearfix">
                 <span class="currentSubject pull-left">
-                   <i class="currentlySubject">
-                    基础知识</i>
+                   <i class="currentlySubject"></i>
                  </span>
                 <input type="hidden" name="subjectName" courseid="301" value="基础知识">
                 <a class="subject-change button pull-left">切换科目</a>
               </div>
             </div>
+            <!--页面内容-->
             <keep-alive>
               <router-view/>
             </keep-alive>
@@ -24,7 +30,9 @@
         </div>
       </div>
     </div>
+    <!--页脚-->
     <page-footer></page-footer>
+    <!--版权所有-->
     <copyright></copyright>
   </div>
 </template>
