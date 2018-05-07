@@ -1,0 +1,159 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,span,em,i,
+fieldset, button, input, textarea,
+th, td {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    font: 14px  Arial, "Microsoft Yahei";
+    overflow: hidden;
+}
+
+svg{
+    font: 14px Arial, "Microsoft Yahei" !important;
+}
+
+button{
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+code, kbd, pre, samp, tt {
+    font-family: Arial, "Microsoft Yahei";
+}
+
+small {
+    font-size: 12px;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #666;
+    outline: none;
+}
+
+abbr[title], acronym[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+i {
+    font-style: normal
+}
+
+q:before, q:after {
+    content: '';
+}
+
+legend {
+    color: #000;
+}
+
+fieldset, img {
+    border: none;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+
+}
+button{
+    cursor: pointer;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: transparent;
+}
+textarea,textarea:focus {
+    outline: none;
+    border: 1px solid #d4d5d5;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+img {
+    vertical-align: middle
+}
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    line-height: 28px;
+}
+
+pre {
+    display: block;
+    font-family: Arial, "Microsoft Yahei";
+    margin: 1em 0;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.sep, .ndash {
+    margin: 0 .25em;
+    font-family: Arial, "Microsoft Yahei";
+}
+textarea:disabled, input:not([type]):disabled{
+    background-color: #fff;
+}
+
