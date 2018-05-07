@@ -1,0 +1,3112 @@
+.exam {
+    width: 980px;
+    font-size: 14px;
+    margin-left: -8px;
+}
+
+.exam-list-content {
+    min-height: 630px;
+    margin-left: 11px;
+    margin-top: 12px;
+    background: #fff;
+    padding: 20px;
+}
+
+.exam-list-content .list-btn {
+    font-size: 0;
+    margin-bottom: 10px;
+}
+
+.exam-list-content .list-btn .button {
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.exam-list-content .list-btn .default-sort {
+    color: #ff7700;
+    border: 1px solid #ff7700;
+    margin-right: 20px;
+}
+
+.exam-list-content .list-btn .reference-number {
+    color: #ff7700;
+    border: 1px solid #ff7700;
+}
+
+.exam-list-content .list-btn a.active {
+    background-color: #46c37b;
+    border: 0;
+    color: #fff;
+}
+
+.exam-list {
+    width: 100%;
+}
+
+.exam-list li {
+    border-bottom: #edebeb solid 1px;
+    position: relative;
+}
+
+.exam-list .exam-list-item {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.exam-list .exam-list-item .mockExamTitle {
+    font-size: 16px;
+}
+
+.exam-list .exam-list-item .paper-type {
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+.exam-list .paper-info {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.exam-list .paper-info span {
+    margin-right: 15px;
+}
+.test-operation.exam-status{
+	margin-top:0
+}
+.test-operation-group{
+	 display: inline-block;
+	 width: 80px;
+	 margin-left:20px;
+	 margin-right:20px;
+}
+.test-operation-group a{
+    width: 60px;
+    margin-left:0;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+.test-operation-group a:last-child{
+	margin-bottom:0
+}
+.test-operation-group .cancelTest{
+    border: #d3d3d3 solid 1px;
+    background: #e9eaec;
+    color: #333;
+}
+.test-operation-group .cancelTest:hover{
+	background-color: #FFF;
+}
+.test-operation-group .continueTest{
+	background: #46c37b;
+}
+.test-operation span,.test-operation a.checkParsing{
+	 display: inline-block;
+	 line-height:68px;
+	 vertical-align: top;
+}
+.exam-list .exam-list-item .test-operation a.checkParsing{
+	 top:0;
+}
+.test-operation-btn {
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.exam-list .exam-list-item .question-paper {
+	width:705px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.question-paper:hover a, .question-paper:hover span {
+    color: #46c37b;
+}
+
+.exam-status {
+    margin-top: 10px;
+}
+
+.exam-list .exam-list-item .enterProblem {
+    background: url("../images/btn_nor_hui.png");
+}
+
+.exam-list .exam-list-item .continueTest {
+    background: url("../images/btn_nor_green.png");
+}
+
+.exam-list .exam-list-item .againAnswer {
+    background: url("../images/btn_nor_red.png");
+}
+
+.exam-list .exam-list-item .checkParsing {
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+}
+
+.exam-list .exam-list-item .difficulty {
+    margin-left: 5px;
+    display: none;
+}
+
+.see-more {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.see-more img {
+    margin-left: 7px;
+}
+
+/*绔犺妭缁冧範*/
+.chapter-title {
+    box-shadow: 0 0 10px #ccc;
+    position: relative;
+    z-index: 9;
+    padding: 0 25px;
+}
+
+.chapter-title a {
+    float: left;
+    display: inline-block;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.chapter-title .c1 {
+    width: 384px;
+    padding-left: 37px;
+    text-align: left;
+}
+
+.chapter-title .c2 {
+    width: 230px;
+}
+
+.chapter-title .c3 {
+    width: 140px;
+}
+
+.chapterList {
+    padding: 10px 0;
+    line-height: 21px;
+    border-bottom: #f5f5f5 solid 1px;
+}
+
+.chapterList {
+    min-height: 615px;
+    background: #fff;
+}
+
+.chapterList li {
+    padding: 10px 0;
+    line-height: 21px;
+    position: relative;
+}
+
+.chapterList li div {
+    float: left;
+    text-align: center;
+    line-height: 33px;
+}
+
+.chapterList li .c1 em {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 20px;
+    top: 23px;
+    background-image: url("../images/chapter.png");
+    background-repeat: no-repeat;
+}
+
+.chapterList li .c1 span {
+    display: block;
+    text-align: left;
+    width: 89%;
+    float: left;
+    font-style: normal;
+    padding-top: 7px;
+    padding-left: 50px;
+}
+
+.chapterList .progress {
+    float: left;
+    width: 100px;
+    height: 11px;
+    line-height: 11px;
+    background-color: #CCC;
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+}
+
+.chapterList .progress em {
+    float: left;
+    display: block;
+    height: 11px;
+    background: #5db552;
+    clear: both;
+    overflow: hidden;
+}
+
+.chapterList .progress-txt {
+    float: left;
+    padding-left: 15px;
+    color: #999;
+}
+
+.no-questions {
+    display: none;
+}
+
+.no-questions .no-questions-content {
+    padding: 45px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.no-questions .no-questions-content span {
+    margin-left: 26px;
+}
+
+/*鏄撻敊棰�*/
+.chapter-content {
+    min-height: 630px;
+}
+
+.fallible-list {
+    padding: 0 20px 15px 25px;
+}
+
+/*姣忔棩涓�缁�*/
+.daily-date-change {
+    height: 130px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.daily-date-change .daily-border {
+    position: absolute;
+    width: 170px;
+    height: 133px;
+    background: url("../images/daily-border.png") no-repeat;
+    top: 5px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.daily-date-change .current-date {
+    width: 120px;
+    height: 130px;
+    line-height: 130px;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    background: url("../images/daily-date.png");
+    position: relative;
+    z-index: 9;
+}
+
+.daily-date-change .current-date .date-change-btn {
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    cursor: pointer;
+    left: 20px;
+    bottom: 30px;
+}
+
+.daily-date-change .current-date i {
+    width: 12px;
+    height: 6px;
+    background: url("../images/daily-down.png") no-repeat;
+    position: absolute;
+    left: 35px;
+    bottom: 0;
+    transition: all 0.2s;
+}
+
+.daily-date-change .current-date i.top {
+    background: url("../images/daily-top.png") no-repeat;
+}
+
+.daily-date-change .current-date .month-list {
+    position: absolute;
+    width: 120px;
+    top: 110px;
+    background-color: #fff;
+    z-index: 9;
+    box-shadow: 0 0 10px #928e8e;
+    display: none;
+}
+
+.daily-date-change .date-list .daily-date-list {
+    width: 770px;
+    overflow: hidden;
+}
+
+.daily-date-change .date-list .daily-date-list ul {
+    width: 5000px;
+}
+
+.daily-date-change .current-date .month-list li {
+    height: 32px;
+    line-height: 32px;
+    color: #787d82;
+    cursor: pointer;
+}
+
+.daily-date-change .current-date .month-list li:hover {
+    background-color: #46c37b;
+    color: #FFF;
+}
+
+.daily-date-change .date-list {
+    margin-top: 15px;
+    position: relative;
+    z-index: 2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    margin-left: -83px;
+    padding-left: 83px;
+}
+
+.daily-date-change .date-list li {
+    float: left;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 15px;
+    line-height: 26px;
+    cursor: pointer;
+    position: relative;
+}
+
+.daily-date-change .date-list li i {
+    position: absolute;
+    width: 23px;
+    height: 25px;
+    background: url("../images/daily-icon.png") no-repeat;
+    right: 8px;
+    bottom: 12px;
+}
+
+.daily-date-change .date-list li.active {
+    background: url("../images/daily-active.png") no-repeat center;
+}
+
+.daily-date-change .date-list .left-cut, .daily-date-change .date-list .right-cut {
+    width: 30px;
+    height: 80px;
+    padding-left: 10px;
+    line-height: 90px;
+}
+
+.daily-date-change .date-list .left-cut button, .daily-date-change .date-list .right-cut button {
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #c6c6c8;
+}
+
+/*鑳藉姏璇勪及*/
+.capability-evaluation {
+    margin-left: 10px;
+}
+
+.capability-evaluation .report-date {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.capability-evaluation .report-date span {
+    margin: 0 5px;
+}
+
+.evaluation-data .evaluation-score {
+    height: 468px;
+}
+
+.capability-evaluation .evaluation-score-title {
+    width: 18px;
+    height: 260px;
+    line-height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    background-color: #ffa352;
+    color: #FFF;
+    padding-top: 208px;
+    border-radius: 15px 0 0 15px;
+    vertical-align: middle;
+}
+
+.evaluation-score .evaluation-score-content {
+
+    width: 886px;
+    height: 428px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.capability-evaluation .evaluation-title {
+    font-size: 16px;
+}
+
+.capability-evaluation .score-data {
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #36d38c;
+}
+
+.capability-evaluation .score-data span {
+    font-size: 40px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.capability-evaluation .forecast-score {
+    width: 50%;
+}
+
+.capability-evaluation .forecast-averading span {
+    margin-right: 30px;
+    line-height: 26px;
+}
+
+.capability-evaluation .forecast-averading span em {
+    margin-right: 10px;
+}
+
+.capability-evaluation .forecast-averading span i {
+    font-size: 16px;
+}
+
+.capability-evaluation .accuracy {
+    width: 50%;
+}
+
+.forecast-tendencychart .evaluation-title {
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.capability-evaluation .forecast-averading span{
+	margin-left:5px;
+	margin-right:20px;
+}
+.evaluation-behavior {
+    height: 183px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.evaluation-behavior .evaluation-score-title {
+    background-color: #81d6a5;
+    padding-top: 55px;
+    height: 128px;
+}
+
+.evaluation-behavior .evaluation-score-content {
+    width: 886px;
+    height: 143px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.evaluation-testingcentre {
+    position: relative;
+    display:table;
+}
+
+.evaluation-testingcentre .evaluation-score-title {
+	display: table-cell;
+    padding: 98px 13px;
+    background-color: #8bbfed;
+}
+
+.evaluation-testingcentre .evaluation-score-content {
+	display: table-cell;
+    width: 886px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.evaluation-testingcentre .testingcentre-statistics {
+    height: 52px;
+    line-height: 52px;
+}
+
+.evaluation-testingcentre .testingcentre-statistics .testingcentre-mastered {
+    margin-right: 30px;
+}
+
+.evaluation-testingcentre .testingcentre-statistics .testingcentre-total .base-color {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.evaluation-testingcentre .testingcentre-statistics .mastered-test {
+    font-size: 40px;
+    margin: 0 10px;
+    text-shadow: 1px 1px 1px #36d38c;
+}
+
+.evaluation-testingcentre .testingcentre-chart {
+    height: 58px;
+    line-height: 58px;
+}
+
+.evaluation-testingcentre .testingcentre-chart button {
+    padding: 6px 12px;
+    color: #ff7700;
+    border: 1px solid #ff7700;
+    margin-right: 30px;
+    height: 32px;
+    line-height: 20px;
+}
+
+.evaluation-testingcentre .testingcentre-chart button.active {
+    background-color: #ff7700;
+    color: #FFF;
+}
+
+.testingcentre-chart-content {
+    min-height: 306px;
+}
+
+.testingcentre-chart-content #capabilitylist {
+    width: 100%;
+}
+
+.testingcentre-chart-content #radarmap {
+    width: 100%;
+    height: 306px;
+}
+
+.testingcentre-chart-content #heatmap {
+    width: 100%;
+}
+
+.testingcentre-chart-content #heatmap .heatmap-state {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.testingcentre-chart-content #heatmap .heatmap-state span {
+    margin-right: 30px;
+}
+
+.testingcentre-chart-content #heatmap .heatmap-state i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #d4d5d5;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.testingcentre-chart-content #heatmap .heatmap-state .minimum-requirement i {
+    background-color: #ff7700;
+}
+
+.testingcentre-chart-content #heatmap .heatmap-state .pass i {
+    background-color: #46c37b;
+}
+
+.testingcentre-chart-content #heatmap li {
+    float: left;
+    width: 204px;
+    border: 1px solid #d4d5d5;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.testingcentre-chart-content #heatmap li:last-child {
+    margin-right: 0;
+}
+
+.testingcentre-chart-content #heatmap li .heatmap-content {
+    padding: 20px;
+    padding-right: 5px;
+    padding-bottom: 0;
+}
+
+.heatmap-title {
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #45bf6a;
+    text-align: center;
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.testingcentre-chart-content #heatmap li .heatmap-content i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #d4d5d5;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    float: left;
+}
+
+.testingcentre-chart-content #heatmap li .heatmap-content i.requirement-icon {
+    background-color: #ff7700;
+}
+
+.testingcentre-chart-content #heatmap li .heatmap-content i.pass-icon {
+    background-color: #46c37b;
+}
+
+.testingcentre-chart-content .tab-pane {
+    display: none;
+    height: 100%;
+}
+
+.testingcentre-chart-content .tab-pane.active {
+    display: block;
+}
+
+#capabilitylist .testingcentre-color {
+    color: #929292;
+}
+
+#capabilitylist #capabilitylistTable {
+    display: none;
+}
+
+/*鎴戠殑缁冧範*/
+.practice-list {
+    padding: 0;
+}
+
+/*鎴戠殑绗旇*/
+.exam-record-list {
+    background-color: #FFF;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0 20px;
+    min-height: 630px;
+}
+
+.record-list li {
+    padding: 15px 0;
+    border-bottom: 1px #edebeb solid;
+    padding-left: 42px;
+}
+
+.record-list .txt2 {
+    float: left;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.record-list .txt2 {
+    font-size: 16px;
+}
+
+.record-list .note-info {
+    margin-left: 28px;
+    font-size: 14px;
+    color: #787d82;
+}
+
+.record-list .txt2 span.orgTxt {
+    color: #ff7700;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.record-list .ui-show a {
+    float: right;
+    padding: 6px 0;
+}
+
+#allNoteList .note-item .note-top {
+    margin-right: 18px;
+}
+
+#myNote .note-item .note-top, #myNote .note-item .note-reply {
+    margin-right: 18px;
+}
+
+/*閿欓閲嶅仛*/
+.exam-list-content .error-title {
+    background: #fbfbfb;
+    border-bottom: 1px #f0f0f0 solid;
+    box-shadow: 0 0 10px #ccc;
+    position: relative;
+    z-index: 9;
+    padding: 0 20px;
+}
+
+.exam-list-content .error-title a {
+    float: left;
+    display: inline-block;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.exam-list-content .error-title .c1 {
+    width: 260px;
+    padding-left: 40px;
+}
+
+.exam-list-content .error-title .c2 {
+    width: 270px;
+}
+
+.exam-list-content .error-title .c3 {
+    width: 358px;
+}
+
+.exam-list-content .error-list {
+    padding: 0 20px;
+}
+
+.error-list .error-item {
+    padding: 15px 0;
+    line-height: 32px;
+    border-bottom: 1px solid #edebeb;
+}
+
+.error-list .error-item .subject-type {
+    display: inline-block;
+    width: 260px;
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.error-list .error-item .error-completed {
+    display: inline-block;
+    width: 270px;
+    color: #929292;
+}
+
+.error-list .error-item p {
+    display: inline-block;
+}
+
+.error-list .error-item .error-progress .progress {
+    display: inline-block;
+    width: 70px;
+    height: 6px;
+    background-color: #d4d5d5;
+    position: relative;
+    margin-right: 20px;
+}
+
+.error-list .error-item .error-progress .progress em {
+    position: absolute;
+    display: inline-block;
+    height: 6px;
+    background-color: #46c37b;
+
+}
+
+.error-list .error-item .error-view {
+    margin-left: 40px;
+}
+
+.error-views-list {
+    background-color: #fff;
+    padding-left: 50px;
+    padding-right: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.error-list .error-progress {
+    width: 140px;
+    color: #929292;
+}
+
+/*绔犺妭缁冧範*/
+.doexercise-status {
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 0 25px;
+    background-color: #f5f5f5;
+}
+
+.doexercise-statistics {
+    width: 550px;
+}
+
+.doexercise-progress {
+    display: inline-block;
+    width: 400px;
+    height: 6px;
+    background-color: #d4d5d5;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 10px;
+}
+
+.doexercise-progress .progress-bar {
+    height: 100%;
+    background-color: #46c37b;
+    position: absolute;
+}
+
+.doexercise-status .doexercise-btn {
+    font-size: 0;
+    padding-top: 5px;
+}
+
+.doexercise-status a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    color: #FFF;
+}
+
+.doexercise-status .clearRecord {
+    background-color: #b2c5c8;
+}
+
+.doexercise-status a i {
+    display: inline-block;
+    width: 22px;
+    height: 19px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.doexercise-status .randomExtraction, .doexercise-status .easyWrongList {
+    margin: 0 10px;
+    background-color: #46c37b;
+}
+
+.doexercise-status .wrongRedo {
+    background-color: #ff7700;
+}
+
+.doexercise-status .clearRecord i {
+    background: url('../images/clear1.png') center no-repeat;
+}
+
+.doexercise-status .randomExtraction i {
+    background: url('../images/random1.png') center no-repeat;
+}
+
+.doexercise-status .easyWrongList i {
+    background: url(../images/wrong-list.png) center no-repeat;
+}
+
+.doexercise-status .wrongRedo i {
+    background: url('../images/reform1.png') center no-repeat;
+}
+
+.chapter-test {
+    width: 1010px;
+    float: right;
+    background-color: #fff;
+    padding-bottom: 40px;
+    position: relative;
+    min-height: 500px;
+    box-sizing: border-box;
+}
+
+.chapter-test h2 {
+    width: 90%;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    color: #555;
+}
+
+.chapter-test .list {
+    width: 90%;
+    line-height: 35px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-top: #e5e5e5 dashed 1px;
+}
+
+.chapter-test .list dt {
+    float: left;
+    width: 16%;
+}
+
+.chapter-test .list dd {
+    float: left;
+    width: 84%;
+}
+
+.chapter-test .list dt span {
+    float: left;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: #666;
+}
+
+.chapter-test .list dd a {
+    padding: 0 29px;
+    border: #dfdfdf solid 1px;
+    background-color: #fafafa;
+    margin: 20px 0 0 20px;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.chapter-test .list dd a:hover {
+    border-color: #f06000;
+    color: #f06000;
+    background-color: #FFF;
+}
+
+.chapter-test .list dd .check {
+    border-color: #f06000;
+    color: #f06000;
+    background-color: #FFF;
+}
+
+.num-icon {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #36d38c;
+    border-radius: 16px;
+    line-height: 18px;
+    width: 18px;
+    height: 18px;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.chapter-test .next-btn {
+    width: 300px;
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    background-color: #36d38c;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF !important;
+    margin: 20px auto 0 auto;
+}
+
+.chapter-test .next-btn:hover {
+    background-color: #46c37b;
+}
+
+.chapter-list #chapterTable {
+    display: none;
+}
+table.treetable #chapterList .check-points{
+    width: 4px;
+    height: 4px;
+    background: url(../images/list-icon.png) no-repeat;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    left: -10px;
+    top: -3px;
+}
+/*鍋氶璁板綍*/
+.record-title {
+    width: 1010px;
+    height: 46px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.record-title h2 {
+    float: left;
+    padding: 0 20px;
+    background-color: #fff;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.record-title .record-screening {
+    float: right;
+    font-family: Arial, "Microsoft Yahei";
+}
+
+.record-title .record-screening a {
+    padding: 0 20px;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 49px;
+}
+
+.record-title .record-screening a.check {
+    font-weight: bold;
+    color: #fff;
+    background-color: #36d38c;
+}
+
+.record-list {
+    background-color: #FFF;
+}
+
+.recordList li {
+    padding: 15px 20px;
+}
+
+.recordList p {
+    width: 100%;
+    line-height: 19px;
+    position: relative;
+}
+
+.recordList .info {
+    color: #999;
+    padding-top: 3px;
+    font-family: Arial, "Microsoft Yahei";
+}
+
+.recordList .info span {
+    padding-right: 20px;
+}
+
+.recordList .txt {
+    width: 750px;
+    float: left;
+    padding-right: 10px;
+}
+
+.recordList .txt .orgTxt {
+    margin-right: 5px;
+}
+
+.recordList .btn {
+    float: right;
+    margin-top: 5px;
+}
+
+.recordList .a-link {
+    font-size: 14px;
+    color: #333;
+}
+
+.recordList .a-jiexi {
+    float: right;
+    color: #f06000;
+    line-height: 35px;
+    margin: 0 30px 0 0;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.recordList span.a-jiexi {
+    color: #999;
+    line-height: 40px;
+    margin: 0 40px;
+}
+
+.exam-info:after, .exam-bd:after, .exam-info-txt .info:after, .exam-info-txt .bd:after, .exam-info-bd .bd-tltle:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: '.';
+}
+
+.exam-info {
+    width: 998px;
+    background-color: #FFF;
+    padding-bottom: 30px
+}
+
+.exam-info-hd {
+    padding-bottom: 20px
+}
+
+.exam-info-img {
+    width: 350px;
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.exam-info-img img {
+    width: 350px;
+    height: 330px;
+}
+
+.exam-info-txt {
+    width: 555px;
+    height: auto;
+    float: left;
+    padding-top: 40px;
+    margin-left: 30px;
+    font-size: 14px
+}
+
+.exam-info-txt .h1 {
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: #CCC dashed 1px;
+    padding-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.exam-info-txt .info {
+    padding-top: 15px;
+    float: left
+}
+
+.exam-info-txt .info li {
+    width: 250px;
+    line-height: 25px;
+    float: left;
+    zoom: 1;
+}
+
+.exam-info-txt .info .special {
+    z-index: 80;
+    position: relative;
+}
+
+.exam-info-txt .info li span {
+    float: left
+}
+
+.exam-info-txt .info li .why {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-top: 7px;
+    float: left;
+    position: relative
+}
+
+.exam-info-txt .info li .why .ico {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url("../images/tk_gd.png") -184px -107px no-repeat;
+    position: relative;
+}
+
+.exam-info-txt .other {
+    position: relative;
+    text-indent: 2.5em;
+    padding-top: 10px;
+    padding-bottom: 5px
+}
+
+.exam-info-txt .other i {
+    display: block;
+    position: absolute;
+    width: 27px;
+    height: 26px;
+    background-image: url("../images/tk_main.png");
+    background-repeat: no-repeat
+}
+
+.exam-info-txt .other .reply {
+    left: 0px;
+    background-position: -276px -400px
+}
+
+.exam-info-txt .other .review {
+    left: 0px;
+    background-position: -311px -400px
+}
+
+.exam-info-txt .bd {
+    width: 100%;
+    padding-top: 20px;
+    float: left
+}
+
+.exam-info-txt .bd .share {
+    float: right;
+}
+
+.exam-info-txt .bd .share em {
+    float: left;
+    padding-top: 10px;
+    line-height: 17px
+}
+
+.exam-info-txt .bd .share a {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/tk_main.png);
+    text-indent: -9999px;
+    margin-left: 10px
+}
+
+.exam-info-txt .bd .share .sina {
+    background-position: 0 -554px
+}
+
+.exam-info-txt .bd .sina:hover {
+    background-position: -174px -554px
+}
+
+.exam-info-txt .bd .share .zone {
+    background-position: -59px -554px
+}
+
+.exam-info-txt .bd .zone:hover {
+    background-position: -231px -554px
+}
+
+.exam-info-txt .bd .share .renren {
+    background-position: -116px -554px
+}
+
+.exam-info-txt .bd .renren:hover {
+    background-position: -289px -554px
+}
+
+.exam-info-txt .jikao, .exam-info-txt .mokao, .exam-info-txt .grayOn {
+    font-size: 16px;
+    line-height: 40px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 40px;
+    white-space: nowrap;
+    color: #FFF;
+    float: left;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 3px 3px 0px #f2f2f2;
+    -moz-box-shadow: 3px 3px 0px #f2f2f2;
+    box-shadow: 3px 3px 0px #f2f2f2;
+    margin-right: 30px;
+    display: inline
+}
+
+.exam-info-txt .mokao {
+    background-color: #f06000;
+    border-color: #df5900;
+    margin-left: 250px;
+}
+
+.exam-info-txt .mokao:hover {
+    background-color: #df5900
+}
+
+.exam-info-txt .jikao {
+    background-color: #5db552;
+    border-color: #4da841;
+}
+
+.exam-info-txt .jikao:hover {
+    background-color: #4da841
+}
+
+.exam-info-txt .grayOn {
+    background-color: #d3d3d3;
+    border-color: #c3c3c3;
+    color: #fff;
+    cursor: default
+}
+
+.exam-info-txt .bdsharebuttonbox {
+    width: 200px;
+    position: relative;
+    top: -40px;
+    float: right;
+}
+
+.exam-info-bd {
+    width: 100%;
+    border-top: #f1f1f1 solid 1px;
+    margin-top: 0px;
+    _margin-top: 20px;
+}
+
+.exam-info-bd .hd {
+    width: 100px;
+    height: 33px;
+    text-align: center;
+    margin-left: 21px;
+    background: url("../images/tk_main.png") -126px -463px;
+    padding-left: 70px;
+    padding-top: 6px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.exam-info-bd .bd {
+    width: 969px;
+    border-left: #e4e4e4 solid 1px;
+    margin-left: 30px;
+    padding-top: 20px
+}
+
+.exam-info-bd .bd-tltle {
+    width: 939px;
+    border-bottom: #e4e4e4 solid 1px;
+}
+
+.exam-info-bd .bd-tltle span {
+    height: 24px;
+    float: left;
+    text-align: left;
+    line-height: 24px;
+    font-size: 14px;
+    display: block;
+    padding-left: 30px;
+    background: url("../images/tk_main.png") 0px -511px;
+    margin-bottom: -1px;
+    position: relative;
+    margin-left: -7px;
+    font-weight: bold;
+}
+
+.exam-info-bd .bd-txt {
+    width: 920px;
+    line-height: 21px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-family: Arial, "Microsoft Yahei";
+    color: #666
+}
+
+.exam-commentary {
+    width: 998px;
+    background-color: #FFF;
+    border: #e3e3e3 solid 1px;
+}
+
+.xxm-poptip {
+    position: absolute;
+    z-index: 99;
+    top: -10px;
+    left: 30px;
+}
+
+.xbq {
+    width: 24px;
+    height: 23px;
+    float: left;
+    text-indent: -9999px;
+    font-size: 0px;
+    margin-right: 3px;
+    display: inline;
+}
+
+.xbq2 {
+    background-position: -38px -509px;
+}
+
+.xbq3 {
+    background-position: -71px -509px;
+}
+
+.xbq4 {
+    background-position: -103px -509px;
+}
+
+.xbq5 {
+    background-position: -136px -509px;
+    width: 27px;
+    margin-left: 1px;
+}
+
+.info-pot {
+    background-color: #fff4d9;
+    box-shadow: 1px 1px 1px #f3d4b9;
+    border-top: none;
+    position: relative;
+    padding: 10px 25px 10px 55px;
+    border-radius: 30px;
+    float: left;
+    margin-top: 20px
+}
+
+.info-pot .ico {
+    width: 62px;
+    height: 54px;
+    background: url(../images/tk_exam_new.png) -71px -207px;
+    position: absolute;
+    left: -20px;
+    top: -8px;
+    bottom: -20px
+}
+
+.info-pot span {
+    color: #f06000;
+    padding: 0 5px;
+    font-size: 16px;
+}
+
+/*绔犺妭*/
+/* .chapter-title {
+    background: #fff;
+    border-bottom: 1px #f0f0f0 solid;
+}
+
+.chapter-list {
+    min-height: 630px;
+    background: #fff;
+}
+
+.c-list-title {
+    height: 32px;
+    padding: 15px 0;
+    background: #FFF;
+    border-bottom: 1px #f0f0f0 solid;
+}
+
+.c-list-title h2 {
+    float: left;
+    width: 380px;
+    font-size: 16px;
+    text-align: left;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    background-position: 0 2px;
+    cursor: pointer;
+    padding-left: 36px;
+    transition: all .1s;
+}
+
+.c-list-title h2 a {
+    font-size: 16px;
+}
+
+.c-list-title h2:hover {
+    background: url(../images/pack-up-active.png) no-repeat 0 center;
+}
+
+.c-list-title h2:hover a {
+    color: #46c37b;
+}
+
+.c-list-content {
+    display: none
+}
+
+.chapter-item h2 {
+    background: url(../images/pack-up.png) no-repeat 0 center;
+}
+
+.c-list-content li {
+    padding: 20px 0;
+    border-bottom: 1px #f0f0f0 solid;
+}
+
+.c-list-content li .zt-left b {
+    display: inline-block;
+    width: 95px;
+}
+
+.chapter-item h4 {
+    float: left;
+    width: 380px;
+    font-size: 16px;
+    text-align: left;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    cursor: pointer;
+    padding-left: 36px;
+    background: url(../images/list-icon.png) no-repeat 30px center;
+}
+
+.chapter-item h4 a {
+    padding-left: 12px;
+}
+
+.chapter-item .zt-left {
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    height: 32px;
+    color: #999;
+    font: normal 16px/32px Arial, "Microsoft Yahei";
+}
+
+.chapter-item .wrong {
+    display: inline-block;
+    width: 140px;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+}
+
+.chapter-item .gray-btn .chapter-lock {
+    width: 20px;
+    height: 21px;
+    display: inline-block;
+    background: url("../images/ic_suo.png") no-repeat;
+    position: relative;
+    left: -2px;
+    vertical-align: bottom;
+}
+
+.chapter-item .c-list-title.chapter h2 {
+    background: url(../images/unfold-active.png) no-repeat 0 center;
+}
+
+.chapter-item .c-list-title.chapter h2 a {
+    color: #46c37b;
+}
+
+.chapter-list .progress {
+    width: 80px;
+    height: 6px;
+    line-height: 6px;
+    background-color: #d4d5d5;
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.chapter-list .progress em {
+    float: left;
+    display: block;
+    height: 6px;
+    background: #46c37b;
+    clear: both;
+    overflow: hidden;
+}
+
+.chapter-list .progress-txt {
+    display: inline-block;
+    padding-left: 15px;
+    color: #999;
+}
+ */
+.chapter-list table.treetable thead {
+    border-right: 0;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.clearRecordModal {
+    background-color: #fff;
+    display: none;
+}
+
+.clearRecordModal .clearRecordContent {
+    width: 360px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.clearRecordModal p {
+    font-size: 16px;
+}
+
+.clearRecordModal .clearRecordIcon {
+    height: 68px;
+}
+
+.clearRecordModal .operating-button {
+    margin-top: 40px;
+}
+
+.clearRecordModal .operating-button button {
+    width: 160px;
+    height: 34px;
+}
+
+.clearRecordModal .operating-button .affirm-btn {
+    background-color: #ff7700;
+    color: #FFF;
+    margin-right: 34px;
+}
+
+.clearRecordModal .operating-button .cancel-btn {
+    border: 1px solid #d4d5d5;
+}
+
+/*棰樼洰璁剧疆*/
+.subjects-setting {
+    background: #fff;
+}
+
+.chapter-location {
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 20px;
+}
+
+.chapter-location a {
+    font-size: 16px;
+}
+
+.chapter-location .location-icon {
+    display: inline-block;
+    width: 28px;
+    height: 34px;
+    background: url("../images/location1.png");
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.chapter-location i.triangle-right {
+    display: inline-block;
+    width: 6px;
+    height: 11px;
+    background: url("../images/triangle-right.png");
+    margin: 0 18px;
+}
+
+.chapter-paractice-title {
+    margin: 0 auto;
+    font-size: 24px;
+    border-bottom: 1px dashed #d4d5d5;
+    padding: 36px 0;
+}
+
+.topic-setting {
+    padding: 0 50px;
+    padding-bottom: 50px;
+}
+.topic-setting .transverse-line{
+    margin-top: 1px;
+}
+
+#topic-setting select {
+    border-radius: 0;
+}
+
+.topic-setting-title {
+    background: url("../images/topic-setting-title-icon.png") no-repeat;
+    padding-left: 24px;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.topic-setting-content {
+    padding: 0 24px;
+}
+
+.topic-setting-content form .form-group {
+    line-height: 56px;
+}
+
+.topic-setting-content .question-types-content {
+    width: 1000px;
+}
+
+.topic-setting-content form .form-group select {
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d4d5d5;
+    padding: 0 20px;
+}
+
+.topic-setting-content form .form-group label {
+    margin-right: 10px;
+}
+
+.topic-setting-content form .form-group span {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d4d5d5;
+    padding: 0 25px;
+    margin-right: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topic-setting-content form .question-types span.selected {
+    color: #46c37b;
+    border-color: #46c37b;
+}
+
+.topic-setting-content form .question-types span.selected:after {
+    display: block;
+    content: "";
+    width: 26px;
+    height: 20px;
+    background: url("../images/selected.png") no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.topic-setting-btn {
+    display: block;
+    width: 200px;
+    height: 36px;
+    background-color: #ff7700;
+    color: #FFF;
+    margin: 50px auto 0;
+}
+
+.topic-setting-content form .question-amount span.active {
+    color: #46c37b;
+    border-color: #46c37b;
+}
+
+.no-subjects {
+    padding: 45px 0;
+    display: none;
+}
+
+.no-subjects .no-subjects-content {
+    text-align: center;
+    font-size: 16px;
+}
+
+.no-subjects .no-subjects-content span {
+    margin-left: 28px;
+}
+
+/*绔犺妭缁冧範鍋氶*/
+.chapter-paractice .chapter-paractice-navigation {
+    padding: 20px 50px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.chapter-paractice .chapter-paractice-navigation .transverse-line {
+    height: 1px;
+    border-top: 1px dashed #d4d5d5;
+    margin-top: 20px;
+}
+
+.chapter-paractice .chapter-paractice-navigation .last-line {
+    margin-top: 0;
+}
+
+.chapter-paractice-navigation .subject-progress {
+    padding-top: 30px;
+}
+
+.chapter-paractice-navigation .doing-progress {
+    background-color: #d4d5d5;
+    height: 8px;
+    display: inline-block;
+    width: 900px;
+    position: relative;
+    margin-right: 18px;
+}
+
+.chapter-paractice-navigation .doing-progress-bar {
+    position: absolute;
+    height: 8px;
+    background-color: #46c37b;
+}
+
+.subjects-container .subjects-list {
+    width: 768px;
+    min-height: 630px;
+    padding-left: 50px;
+    padding-right: 60px;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.subject-item {
+    font-size: 14px;
+    position: relative;
+}
+
+.subject-item .subject-number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    text-align: center;
+    background-color: #46c37b;
+    font-size: 18px;
+    position: absolute;
+    left: -50px;
+}
+
+.subject-item .subject-content .subject-title {
+    padding-top: 20px;
+    line-height: 23px;
+    padding-bottom: 20px;
+    background-color: #fafafa;
+}
+
+.subject-item .subject-content .subject-title .subject-type {
+    color: #46c37b;
+    margin-left: -8px;
+}
+
+.subject-item .paractice-type {
+    color: #46c37b;
+}
+
+.subject-item .item-option {
+    line-height: 26px;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.subject-item .subject-options .textareaBox {
+    margin-top: 15px;
+}
+
+.subject-item .subject-options .filling-itme {
+    width: 758px;
+}
+
+.subject-item .subject-options .filling-itme .filling-input {
+    padding: 6px 12px;
+    border: 1px solid #e6e5e5;
+    margin-bottom: 20px;
+    width: 708px;
+}
+
+.subject-item .subject-options .filling-itme:last-child .filling-input {
+    margin-bottom: 0;
+}
+
+.subject-item .subject-options .short-answer {
+    width: 734px;
+    min-height: 200px;
+    padding: 6px 12px;
+    border: 1px solid #e6e5e5;
+}
+
+.subject-item .analysis {
+    padding-bottom: 20px;
+}
+
+.subject-item .analysis-title {
+    height: 57px;
+    line-height: 57px;
+    background-color: #f3fef7;
+    border: 1px dashed #dbe8e0;
+    margin-left: -50px;
+    margin-right: -60px;
+    margin-top: 15px;
+    padding-right: 60px;
+    font-size: 14px;
+}
+
+.subject-item .analysis-title .analysis-answer {
+    padding-left: 50px;
+}
+
+.subject-item .analysis-title .analysis-answer span {
+    margin-right: 48px;
+}
+
+.subject-item .analysis-title img {
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.subject-item .analysis-title .unfold-analysis i {
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    background: url("../images/down-btn.png");
+    margin-left: 10px;
+}
+
+.subject-item .analysis-title .unfold-analysis .up {
+    background: url("../images/up-btn.png");
+}
+
+.analysis-content ul {
+    padding-top: 20px;
+}
+
+.analysis-content > ul > li {
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.analysis-content li img {
+    margin-right: 10px;
+}
+
+.analysis-content .analysis-text {
+    margin-right: 25px;
+}
+
+.analysis-content .analysis-statistics {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.analysis-content .analysis-statistics .analysis-text {
+    margin-top: 10px;
+}
+
+.analysis-content .analysis-statistics p {
+    height: 35px;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.analysis-content .analysis-statistics p:first-child {
+    width: 407px;
+    background: url("../images/analysis-statistics-1.png") no-repeat;
+}
+
+.analysis-content .analysis-statistics p:last-child {
+    width: 471px;
+    background: url("../images/analysis-statistics-2.png") no-repeat;
+}
+
+
+.analysis-content .analysis-memory-difficult .memory-difficult span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 107px;
+    height: 25px;
+    line-height: 25px;
+    background: url("../images/memory-difficult-bag.png") no-repeat;
+    text-align: center;
+}
+
+.analysis-content .memory-difficult span i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/memory-easy.png") no-repeat;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.analysis-content .memory-difficult .memory-general i {
+    background: url("../images/memory-general.png") no-repeat;
+}
+
+.analysis-content .memory-difficult .memory-hard i {
+    background: url("../images/memory-hard.png") no-repeat;
+}
+
+.analysis-content .memory-difficult span.active {
+    background-color: #ff7700;
+    border-color: #ff7700;
+    color: #FFF;
+}
+
+.analysis-content .memory-difficult .memory-easy.active i {
+    background: url("../images/easy-selected.png") no-repeat;
+}
+
+.analysis-content .memory-difficult .memory-general.active i {
+    background: url("../images/ic_yiban.png") no-repeat;
+}
+
+.analysis-content .memory-difficult .memory-hard.active i {
+    background: url("../images/ic_kunnan.png") no-repeat;
+}
+
+.analysis-content .analysis-answer-keys p {
+    width: 724px;
+}
+
+.analysis-content .analysis-item-ifficulty .stars i {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 2px;
+    background: url("../images/star-noselected.png") no-repeat;
+}
+
+.analysis-content .analysis-item-ifficulty .stars i.selected {
+    background: url("../images/star-selected.png") no-repeat;
+}
+
+.analysis-content .analysis-note-btn {
+    padding-bottom: 10px;
+}
+
+.analysis-content .analysis-note-btn a {
+    display: inline-block;
+    width: 120px;
+    padding: 6px 0;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ff7700;
+    color: #ff7700;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+.analysis-content .analysis-note-btn a.active {
+    background-color: #ff7700;
+    color: #FFF
+}
+
+.analysis-answer-content {
+    line-height: 21px;
+    width: 640px;
+}
+
+.analysis-answer-content .right-answer {
+    margin-right: 10px;
+}
+
+.material-title {
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 14px !important;
+}
+
+.material-title .subject-type{
+    margin-left: -7px;
+}
+
+
+.analysis-testing-centre p {
+    width: 630px;
+    background: url("../images/analysis-testing-centre-bg.png") no-repeat;
+}
+
+.analysis-content .memory-difficult span.active {
+    background-color: #ff7700;
+    border-color: #ff7700;
+    color: #FFF;
+    background-image: none;
+}
+
+/*鍙充晶璁剧疆*/
+.subjects-container .exam-tool {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.subjects-container .exam-tool .used-time {
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 0 10px #9f9f9f;
+    position: relative;
+    z-index: 9;
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+.subjects-container .exam-tool .return-list {
+    height: 138px;
+    background-color: #fff;
+}
+
+.exam-tool .return-list .return-list-btn {
+    height: 25px;
+    line-height: 25px;
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.exam-tool .return-list .return-list-btn span {
+    display: inline-block;
+    width: 126px;
+    cursor: pointer;
+}
+
+.exam-tool .return-list .return-list-btn .back-list {
+    border-right: 1px solid #d4d5d5;
+}
+
+.exam-tool .return-list .return-list-btn .pause img {
+    margin-left: 30px;
+}
+
+.exam-tool .return-list .return-list-btn span:last-child {
+    border-right: 0;
+}
+
+.exam-tool .return-list .return-list-btn img {
+    margin-right: 10px;
+}
+
+.exam-tool .return-list .auto-next {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+.exam-tool .answer-sheet {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.exam-tool .answer-sheet .answer-sheet-title {
+    line-height: 16px;
+    padding: 14px 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.exam-tool .answer-sheet .answer-sheet-title .completed {
+    margin-left: 15px;
+}
+
+.exam-tool .answer-sheet .answer-sheet-title span {
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.exam-tool .answer-sheet .answer-sheet-content {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.subjects-container .exam-tool .title-number {
+    position: relative;
+}
+
+.subjects-container .exam-tool .title-number i {
+    display: inline-block;
+    width: 3px;
+    height: 13px;
+    background-color: #ff7700;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+}
+
+.subjects-container .exam-tool .title-number-list {
+    padding: 12px 0;
+    min-height: 120px;
+}
+
+.subjects-container .exam-tool .title-number-list a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #d9dada;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.subjects-container .exam-tool .title-number-list a.finished {
+    background-color: #d4d5d5;
+    color: #FFF;
+}
+
+.subjects-container .exam-tool .title-number-list a.right {
+    background-color: #46c27a;
+    color: #FFF;
+}
+
+.subjects-container .exam-tool .title-number-list a.error {
+    background-color: #f10b10;
+    color: #FFF;
+}
+
+.exam-tool .topic-save {
+    box-shadow: 0 0 10px #9f9f9f;
+    background-color: #fff;
+}
+
+.exam-tool .topic-status {
+    background-color: #fff;
+    padding: 30px 0;
+    border-bottom: 1px dashed #d4d5d5;
+}
+
+.exam-tool .topic-status i {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #d4d5d5;
+    vertical-align: middle;
+    border: 1px solid #d4d5d5;
+    margin-left: 3px;
+    margin-right: 13px;
+}
+
+.exam-tool .topic-status .not-done {
+    background-color: #fff;
+}
+
+.exam-tool .topic-status .right {
+    background-color: #46c27a;
+    border-color: #46c27a;
+}
+
+.exam-tool .topic-status .error {
+    background-color: #f10b10;
+    border-color: #f10b10;
+}
+
+.subjects-container .exam-tool .answer-btn {
+    padding: 30px 20px;
+}
+
+.subjects-container .exam-tool .answer-btn button {
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ff7700;
+    color: #ff7700;
+}
+
+.subjects-container .exam-tool .answer-btn button:hover {
+    background-color: #ff7700;
+    color: #FFF;
+}
+
+.subjects-container .exam-tool .answer-btn .save-progress-btn {
+    margin-bottom: 20px;
+}
+
+.subjects-container .exam-tool .answer-btn .handPaper-btn {
+    background-color: #ff7700;
+    color: #FFF;
+}
+
+.subjects-container .exam-tool .answer-show {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    border-top: 1px solid #f0f0f0;
+}
+
+/*鎺掕姒�*/
+.rank-list {
+    padding: 0;
+}
+
+.rank-list .tab-pane .myself-rank-list li img,
+.rank-list .tab-pane .hardWorking-today li img,
+.rank-list .tab-pane .hardWorking-countrywide li img,
+.rank-list .tab-pane .accuracy-today li img,
+.rank-list .tab-pane .accuracy-countrywide li img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+#hardWorking .myself-rank-list .user-name {
+    width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+#accuracy .myself-rank-list .user-name {
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+#hardWorking .today-rank, #hardWorking .total-rank {
+    width: 460px;
+}
+
+#hardWorking .today-rank {
+    box-shadow: 0 0 5px #ccc;
+}
+
+#hardWorking .myself-rank {
+    padding: 0 20px;
+    border-bottom: 1px dashed #f5f5f5;
+    padding-bottom: 15px;
+}
+
+#hardWorking .myself-rank-list {
+    background-color: #fbfbfb;
+}
+
+#hardWorking .myself-rank-list li {
+    display: inline-block;
+    width: 100px;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+}
+
+#hardWorking .myself-rank-list li img {
+    margin-left: 10px;
+}
+
+#hardWorking .myself-rank h4 {
+    height: 44px;
+    line-height: 44px;
+}
+
+#hardWorking .today-rank-title {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+#hardWorking .today-rank-title i {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url("../images/today-rank.png") no-repeat;
+    vertical-align: middle;
+}
+
+#hardWorking .countrywide-rank h4 {
+    height: 54px;
+    line-height: 54px;
+    padding: 0 20px;
+}
+
+#hardWorking .countrywide-rank .countrywide-rank-content {
+    padding: 0 20px;
+}
+
+#hardWorking .countrywide-rank .countrywide-list-title {
+    border-bottom: 1px solid #dcddde;
+    background-color: #fbfbfb;
+    padding: 11px 20px;
+}
+
+#hardWorking .countrywide-rank .countrywide-list-title span:first-child {
+    text-indent: 10px;
+}
+
+#hardWorking .countrywide-rank .countrywide-rank-list ul {
+    padding: 0 20px;
+}
+
+#hardWorking .countrywide-rank .countrywide-rank-list li {
+    padding: 4px 0;
+}
+
+#hardWorking .countrywide-rank .countrywide-rank-list li img {
+    margin-left: 10px;
+}
+
+#hardWorking .countrywide-rank .countrywide-list-title span,
+#hardWorking .countrywide-rank .countrywide-rank-list li span {
+    display: inline-block;
+    width: 92px;
+}
+
+#hardWorking .countrywide-rank .countrywide-list-title span:nth-child(2),
+#hardWorking .countrywide-rank .countrywide-rank-list li span:nth-child(2) {
+    width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#hardWorking .countrywide-rank .countrywide-rank-list li:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+#hardWorking .total-rank .today-rank-title i {
+    background: url("../images/total-rank.png") no-repeat;
+}
+
+#accuracy .today-rank, #accuracy .total-rank {
+    width: 460px;
+}
+
+#accuracy .today-rank {
+    box-shadow: 0 0 5px #ccc;
+}
+
+#accuracy .myself-rank {
+    padding: 0 20px;
+    border-bottom: 1px dashed #f5f5f5;
+    padding-bottom: 15px;
+}
+
+#accuracy .myself-rank-list {
+    background-color: #fbfbfb;
+}
+
+#accuracy .myself-rank-list li {
+    display: inline-block;
+    width: 88px;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+}
+
+#accuracy .myself-rank-list li img {
+    margin-left: 10px;
+}
+
+#accuracy .myself-rank h4 {
+    height: 44px;
+    line-height: 44px;
+}
+
+#accuracy .today-rank-title {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+#accuracy .today-rank-title i {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url("../images/today-rank.png") no-repeat;
+    vertical-align: middle;
+}
+
+#accuracy .countrywide-rank h4 {
+    height: 54px;
+    line-height: 54px;
+    padding: 0 20px;
+}
+
+#accuracy .countrywide-rank .countrywide-rank-content {
+    padding: 0 20px;
+}
+
+#accuracy .countrywide-rank .countrywide-list-title {
+    border-bottom: 1px solid #dcddde;
+    background-color: #fbfbfb;
+    padding: 11px 20px;
+}
+
+#accuracy .countrywide-rank .countrywide-list-title span:first-child {
+    text-indent: 10px;
+}
+
+#accuracy .countrywide-rank .countrywide-rank-list ul {
+    padding: 0 20px;
+}
+
+#accuracy .countrywide-rank .countrywide-rank-list li {
+    height: 46px;
+    line-height: 46px;
+}
+
+#accuracy .countrywide-rank .countrywide-rank-list li img {
+    margin-left: 10px;
+}
+
+#accuracy .countrywide-rank .countrywide-list-title span,
+#accuracy .countrywide-rank .countrywide-rank-list li span {
+    display: inline-block;
+    width: 85px;
+}
+
+#accuracy .countrywide-rank .countrywide-list-title span:nth-child(2),
+#accuracy .countrywide-rank .countrywide-rank-list li span:nth-child(2) {
+    width: 78px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#accuracy .countrywide-rank .countrywide-list-title span:nth-child(3),
+#accuracy .countrywide-rank .countrywide-rank-list li span:nth-child(3) {
+    width: 66px;
+}
+
+#accuracy .countrywide-rank .countrywide-list-title span:nth-child(4),
+#accuracy .countrywide-rank .countrywide-rank-list li span:nth-child(4) {
+    width: 74px;
+}
+
+#accuracy .countrywide-rank .countrywide-rank-list li:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+#accuracy .total-rank .today-rank-title i {
+    background: url("../images/total-rank.png") no-repeat;
+}
+
+#easyWrong h3 {
+    padding: 20px;
+}
+
+#easyWrong h3 i {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url("../images/today-rank.png") no-repeat;
+    vertical-align: middle;
+}
+
+#easyWrong .today-rank {
+    box-shadow: 0 0 5px #ccc;
+}
+
+#easyWrong .total-rank .total-rank-title i {
+    background: url("../images/total-rank.png") no-repeat;
+}
+
+#easyWrong .today-rank, #easyWrong .total-rank {
+    width: 460px;
+}
+
+#easyWrong .today-list-title {
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #dcddde;
+    background-color: #fbfbfb;
+    padding: 0 20px;
+}
+
+#easyWrong .today-list-title span {
+    display: inline-block;
+}
+
+#easyWrong .today-list {
+    padding: 0 20px;
+}
+
+#easyWrong .today-list li {
+    padding: 15px 0;
+}
+
+#easyWrong .today-list li span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#easyWrong .today-list li span:first-child {
+    text-indent: 10px;
+}
+
+#easyWrong .today-list li:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+#viewSubject {
+    display: none;
+    overflow: hidden;
+}
+
+.viewSubject-modal .viewSubject-content {
+    padding: 20px;
+    padding-top: 0;
+    position: relative;
+    max-height: 560px;
+    overflow-y: auto;
+}
+
+.viewSubject-modal .subject-item .subject-number {
+    left: 0;
+}
+
+.viewSubject-modal .subject-item .analysis,
+.viewSubject-modal .subject-item .subject-content {
+    margin-left: 70px;
+}
+
+.viewSubject-modal .subject-item .analysis .analysis-title {
+    margin-right: 0;
+    margin-left: -70px;
+}
+
+.viewSubject-modal .subject-item .analysis .analysis-content {
+    margin-top: 20px;
+}
+
+.viewSubject-modal .analysis-content .analysis-answer-keys p {
+    width: 656px;
+}
+
+/*寮圭獥鏍峰紡*/
+.public-modal {
+    background-color: #fff;
+    display: none;
+}
+
+.public-modal .modalContent {
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.public-modal .modalContent p {
+    font-size: 16px;
+}
+
+.public-modal .modalIcon {
+    height: 68px;
+}
+
+.public-modal .operating-button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.public-modal .operating-button button {
+    width: 160px;
+    height: 34px;
+}
+
+.public-modal .operating-button button:first-child {
+    margin-right: 34px;
+}
+
+.public-modal .operating-button .affirm-btn {
+    background-color: #ff7700;
+    color: #FFF;
+}
+
+.public-modal .operating-button .cancel-btn {
+    border: 1px solid #d4d5d5;
+}
+
+/*鎻愰棶*/
+#askQuestions, #errorCorrection {
+    padding: 30px 20px;
+    display: none;
+}
+
+#askQuestions .modal-title, #errorCorrection .modal-title {
+    font-size: 24px;
+    color: #46c37b;
+    height: 40px;
+    border-bottom: 1px solid #edebeb;
+    position: relative;
+}
+
+#askQuestions .modal-title span.modal-title-text,
+#errorCorrection .modal-title span.modal-title-text {
+    display: inline-block;
+    border-bottom: 2px solid #46c37b;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+#askQuestions .ask-questions-form, #errorCorrection .error-correction-form {
+    color: #000;
+    padding: 30px 10px;
+    padding-bottom: 0;
+}
+
+#askQuestions .ask-questions-form p, #errorCorrection .error-correction-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#askQuestions .ask-questions-form textarea, #errorCorrection .error-correction-form textarea {
+    width: 794px;
+    height: 94px;
+    padding: 12px;
+    color: #6d6d70;
+}
+
+#errorCorrection .error-correction-form .error-suchas {
+    margin-bottom: 20px;
+}
+
+#errorCorrection .error-correction-form .error-suchas .checkbox-radio {
+    margin-top: 2px;
+}
+
+#errorCorrection .error-correction-form .error-suchas .control-label {
+    margin-right: 30px;
+}
+
+#askQuestions .ask-questions-form .save-ask, #errorCorrection .error-correction-form .save-error {
+    background-color: #ff7700;
+    width: 60px;
+    color: #FFF;
+    padding: 6px 0;
+    margin-top: 20px;
+}
+
+.hotTip {
+    position: absolute;
+    z-index: 9999;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background: #000;
+    display: none;
+}
+
+.hotTip b {
+    display: inline-block;
+    color: #ffd740;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.hotTip strong {
+    color: #fff;
+}
+
+.right-content {
+    padding: 5px 20px;
+}
+
+.correct {
+    display: block;
+    line-height: 34px;
+    padding-left: 12px;
+    color: #36d38c;
+    font-size: 14px;
+}
+
+.heatmap-content a {
+    display: inline-block
+}
+
+.error-correction .checkbox-radio {
+    line-height: 19px;
+}
+
+.subject-item .take-notes-form.stair-reply textarea,
+.subject-item .take-notes-form.second-reply textarea {
+    margin-top: 16px;
+}
+
+.subject-item .take-notes-form.stair-reply .word-count,
+.subject-item .take-notes-form.second-reply .word-count {
+    bottom: 28px;
+}
+
+.subject-item .take-notes-form.stair-reply textarea {
+    width: 634px;
+    height: 128px;
+    margin-left: 68px;
+}
+
+.subject-item .take-notes-form.second-reply textarea {
+    width: 568px;
+    height: 145px;
+    margin-left: 68px;
+}
+
+.subject-item .user-note-content .user-note-date {
+    position: relative;
+    z-index: 9;
+    color: #787d82;
+    margin-top: 16px;
+}
+
+.ask-questions-type {
+    font-size: 14px;
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 30px;
+}
+
+.ask-questions-type select {
+    height: 31px;
+    min-width: 100px;
+    font-size: 12px;
+}
+
+.analysis .analysis-content {
+    height: auto !important;
+    font-size: 14px;
+}
+
+.subject-item .user-avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+/*章节*/
+.chapter-head{
+	display: table;
+	width: 100%;
+	height:48px;
+	border-right: 0;
+    box-shadow: 0 0 10px #ccc;
+    border-bottom: 1px solid #dcddde;
+    position: relative;
+    z-index: 100;
+}
+.chapter-head a{
+	padding: 1em;
+    text-align: left;
+    font-size: 16px;
+    background-color: #fbfbfb;
+    display: table-cell;
+}
+.chapter-head a.c1{
+	width:35%;
+	padding-left: 3.6em;
+}
+.chapter-head a.c2{
+	width:30%;
+}
+.chapter-head a.c3{
+	width:10%;
+}
+.chapter-head a.c4{
+	width:15%;
+}
+.chapter-list{
+	 background-color: #fff;
+	 padding-bottom:100px;
+	 font-size:14px;
+}
+.chapter-list .list-title{
+	display: table;
+	width: 100%;
+	border-bottom: 1px #f0f0f0 solid;
+}
+.chapter-list h4{
+	width:45%;
+    display: table-cell;
+    cursor: default;
+    padding: 23px 25px;
+    font-size: 14px;
+}
+.chapter-list .finishStatus{
+	width:35%;
+    display: table-cell;
+    cursor: default;
+    padding: 23px 25px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+.chapter-list .wrong{
+	width:15%;
+	display: table-cell;
+}
+.chapter-list .operateBtn{
+	width:15%;
+	display: table-cell;
+	cursor: default;
+    padding:0 25px;
+    font-size: 14px;
+}
+.chapter-list .operateBtn a{
+	font-size: 14px;
+	position: relative;
+    top: 13px;
+}
+.chapter-list .progress {
+    width: 80px;
+    height: 6px;
+    line-height: 6px;
+    background-color: #d4d5d5;
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+.chapter-list .progress em {
+    float: left;
+    display: block;
+    height: 6px;
+    background: #46c37b;
+    clear: both;
+    overflow: hidden;
+}
+.chapter-list .progress-txt {
+    display: inline-block;
+    padding-left: 15px;
+    color: #999;
+}
+.chapter-list .wrong{
+    cursor: default;
+    padding: 20px 25px;
+    font-size: 14px;
+    text-align: center;
+}
+.chapter-list .indenter{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    user-select: none;
+    box-sizing: content-box;
+    vertical-align: middle;
+    width: 24px;
+    margin-right: 10px;
+}
+.chapter-list .indenter a {
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    width: 24px;
+    height: 24px;
+}
+.chapter-list .collapsed span.indenter a {
+    background-image: url(../images/pack-up.png);
+}
+
+.chapter-list .expanded span.indenter a {
+    background-image: url(../images/unfold.png);
+}
+
+.chapter-list .fallible .chapter span.indenter a {
+    background-image: url(../images/pack-up.png);
+}
+
+.chapter-list .fallible span.indenter a {
+    background-image: url(../images/unfold.png);
+}
+
+.chapter-list .check-points {
+    width: 4px;
+    height: 4px;
+    background: url(../images/list-icon.png) no-repeat;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    left: -10px;
+    top: -3px;
+}
+.chapter-list .partList,.chapter-list .pointList{
+	display:none;
+}
+.chapter-list .partList .indenter{
+    padding-left: 25px;
+}
+.chapter-list .pointList .check-points{
+    margin-left: 75px;
+}
+.exam-list-item .enterPage{
+	display: inline-block;
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:0;
+}
+.exam-list-item .enterPage .test-operation-btn{
+	width:100%;
+	margin-left:0;
+	padding: 0;
+}
+.xhw_loading{
+	width:100%;
+    text-align: center;
+}
+.xhw_loading img {
+	padding:100px 0 0;
+}
+#capabilitylist .chapter-head a.c1 {
+	width: 45%;
+    padding-left: 3.6em;
+}
+#capabilitylist .chapter-head a.c2 {
+    width: 11%;
+}
+#capabilitylist .chapter-head a.c3 {
+    width: 12%;
+}
+#capabilitylist .chapter-head a.c4 {
+    width: 10%;
+}
+#capabilitylist .chapter-head a.c5 {
+    width: 11%;
+}
+#capabilitylist .chapter-head a.c6 {
+    width: 11%;
+}
+#capabilitylist .chapter-list h4{
+	padding-left:15px;
+}
+#capabilitylist .chapter-list h4 a{
+    display: inline-block;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#capabilitylist .chapter-list .correct{
+	 display: table-cell;
+	 width: 11%;
+	 text-align: center;
+	 padding: 18px 25px;
+	 color:#929292;
+}
+
+#capabilitylist .chapter-list .progressRatio{
+	 display: table-cell;
+	 width: 12%;
+	 text-align: center;
+	 color:#929292;
+}
+#capabilitylist .chapter-list .correctRate{
+	 display: table-cell;
+	 width: 10%;
+	 text-align: center;
+	 color:#929292;
+}
+#capabilitylist .chapter-list .duration{
+	 display: table-cell;
+	 width: 11%;
+	 text-align: center;
+	 color:#929292;
+}
+#capabilitylist .chapter-list .percentage{
+	 display: table-cell;
+	 width: 11%;
+	 text-align: center;
+	 vertical-align: middle;
+}
+.stuRankLoading{
+	width: 100% !important;
+}
+#accuracy .myself-rank-list li.stuRankLoading img{
+	padding-top:10px;
+}
+.rankListLoading{
+	padding-top:50px;
+	height:300px!important;
+}
+#accuracy .countrywide-rank .countrywide-rank-list li.rankListLoading img{
+	border-radius:0;
+}
